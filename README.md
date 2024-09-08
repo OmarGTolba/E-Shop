@@ -2,19 +2,6 @@
 
 **A full-responsive React app with Vite, Bootstrap, and PWA functionality**
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies](#technologies)
-- [PWA (Progressive Web App)](#pwa-progressive-web-app)
-- [Skeleton Loading](#skeleton-loading)
-- [Toast Notifications](#toast-notifications)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 
 This project is a fully responsive web application built with React, Vite, Bootstrap, and Progressive Web App (PWA) capabilities. The app provides a desktop-like experience with fast performance and smooth transitions. It includes features such as toast notifications for user feedback (e.g., adding items to the cart or logging in) and skeleton loading for a better user experience while waiting for data to load.
@@ -33,4 +20,4 @@ This project is a fully responsive web application built with React, Vite, Boots
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/OmarGTolba/E-Shop.git
