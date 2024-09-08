@@ -13,8 +13,17 @@
   margin-top: 12px;
   display: flex;
   border: none;
+  align-items: center;
   background-color: white;
   justify-content: center;
+}
+
+
+
+.add-to-cart-btn:hover {
+  background-color: #A67744;  
+  color: white;
+  border: 0 !important;
 }
 .contain {
   display: flex;
@@ -36,7 +45,7 @@
 }
 
 .product-image img {
-  height: 346px !important;
+  /* height: 346px !important; */
   border-radius: 10px;
   width: 251px;
 }

@@ -69,3 +69,11 @@ h2 {
   background-color: transparent;
   height: 35px;
 }
+
+.add-to-cart:hover {
+  /* width: 251px; */
+  background-color:#A67744 !important ;
+  color: white;
+  border: 0 !important;
+  /* height: 35px; */
+}

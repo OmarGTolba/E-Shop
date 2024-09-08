@@ -79,7 +79,7 @@ export default function ProductCard({ type, product }) {
                   className="add-to-cart-btn"
                   style={{ border: "1px solid #354E57" }}
                   onClick={() => {
-                    addToCart(product);
+                    addToCart(product.id);
                   }}
                 >
                   Add to cart
