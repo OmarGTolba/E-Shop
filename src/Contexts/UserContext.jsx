@@ -49,6 +49,7 @@ export const UserProvider = ({ children }) => {
       );
 
       if (!response.ok) {
+        toast.error('failed to login')
         throw new Error(`Error: ${response.statusText}`);
       }
       toast.success("Logged successfully");

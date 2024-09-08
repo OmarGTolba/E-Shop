@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import ProtectedLink from "../ProtectedLink/ProtectedLink";
+import { CartContext } from "../../Contexts/CartContext";
 
 export default function Navbar({ text, color, Profile }) {
   const location = useLocation();
-
+  const{cart}=useContext(CartContext)
   return (
     <div
       style={{ backgroundColor: color, height: "138px" }}
@@ -59,8 +60,12 @@ export default function Navbar({ text, color, Profile }) {
                     </ProtectedLink>
                   </li>
                   <li className="nav-item">
-                    <ProtectedLink className="nav-link" to="/cart">
+                    <ProtectedLink className="nav-link position-relative" to="/cart">
+                      <div className="d-flex">
                       Cart
+
+                      <h6 className="" style={{fontSize:'12px',color:'#A67744'}}>{cart?.data?.products?.length}</h6>
+                      </div>
                     </ProtectedLink>
                   </li>
             { !localStorage.getItem('token') && (      <li className="nav-item">
