@@ -1,0 +1,77 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 110px;
+}
+
+.login-card {
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.shop-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+}
+.logInInput {
+  width: 348px !important;
+  height: 47px;
+}
+.login-title {
+  font-size: 24px !important;
+  font-weight: bold;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+
+  border-radius: 5px;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 348px;
+}
+
+.show-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.login-btn {
+  width: 348px;
+  padding: 10px;
+  background-color: #343a40;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-bottom: 124px;
+  height: 47px;
+}
+
+.login-btn:hover {
+  background-color: #4f5a6a;
+}

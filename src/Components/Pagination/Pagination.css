@@ -1,0 +1,17 @@
+.page-btn:hover {
+    background-color: #007bff;
+    color: #00BCFF;
+  }
+  
+  .page-btn.active {
+    background-color: #007bff;
+    color:#00BCFF;
+    border: 1px solid #007bff !important;
+  }
+  
+  .page-btn.disabled {
+    background-color: #e9e9e9;
+    color: #ccc;
+    cursor: not-allowed;
+    border-color: #ddd;
+  }
