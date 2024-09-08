@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ScrollContainer.css'; // Correct way to import CSS
+import './ScrollContainer.css';
 
 export default function ScrollContainer({ children, height }) {
   return (
